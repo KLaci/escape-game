@@ -13,7 +13,11 @@ const Game = () => {
     return (
         <div style={{ margin: "auto", fontSize: 24 }}>
             <Timer></Timer>
-            {currentStep < steps.length ? <Step step={steps[currentStep]} next={onSuccess}></Step> : <div>Gratula</div>}
+            {currentStep < steps.length ? (
+                <Step step={steps[currentStep]} next={onSuccess}></Step>
+            ) : (
+                <div>És már haza is értél, végre újra megérezheted a kőbányai levegőt.</div>
+            )}
         </div>
     );
 };
