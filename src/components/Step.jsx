@@ -51,7 +51,7 @@ const Step = ({ step, next }) => {
                 onClick={onTry}
                 type="button"
             >
-                🔑
+                <span></span>🔑
             </button>
         </div>
     );
