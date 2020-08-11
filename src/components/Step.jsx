@@ -6,13 +6,11 @@ const Step = ({ step, next }) => {
 
     const [lastFailed, setLastFailed] = useState(null);
 
-    const [remainingSeconds, setRemainingSeconds] = useState(3600);
-
     useInterval(() => {
         if (!lastFailed === null) return;
 
         const remaining = lastFailed + 10 - Math.floor(new Date().getTime() / 1000);
-        setRemainingSeconds(remaining);
+
         if (remaining <= 0) {
             setLastFailed(null);
         }
