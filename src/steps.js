@@ -13,15 +13,15 @@ const steps = [
     },
     {
         pin: "020",
-        text: "És már Vietnámban is vagy, majdnem olyan finomak a Pho levesek, mint a Nagyvárad térnél.",
+        text: "És már Vietnámban is vagy, ahol majdnem olyan finomak a Pho levesek, mint a Nagyvárad térnél.",
     },
     {
         pin: "koriander",
-        text: "Megízleled az ázsiai fűszerek fantasztikus illatát.",
+        text: "Hmm, az éttremben épp megízleled egy ázsiai fűszer fantasztikus illatát.",
     },
     {
         pin: "2967",
-        text: "Utolsó állomásod Liszabon.",
+        text: "Meg is érkeztél az utolsó állomásodra, Liszabonba.",
     },
 ];
 
